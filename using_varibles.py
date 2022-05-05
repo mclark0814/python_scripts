@@ -1,3 +1,5 @@
+#!/usr/bin/env python3.7
+
 my_str = "This is a string" # assigning a string to a variable
 
 print (my_str) # printing the content of the variable
