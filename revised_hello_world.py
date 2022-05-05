@@ -1,4 +1,7 @@
-#!/bin/env python 3.7
+#!/usr/bin/env python3.7
 
 print("Hello World, what a wonderful day!") # print greeting statement
-mclark
+
+# test comment
+
+print("This has been a great day!") # print ending statement
