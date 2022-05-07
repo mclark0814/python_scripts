@@ -6,3 +6,5 @@ first_name = input("Enter your first name:         ")
 last_name = input("Enter your last name:        ")
 
 print("\nHello", (str(first_name)), (str(last_name)) + "\nWelcome to Level Up In Tech, now let's get started on your next phase!!!")
+
+# last entry 
