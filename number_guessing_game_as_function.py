@@ -17,3 +17,4 @@ while (user_number != hidden_number): # while loop tha checks for the user's num
 print("Equal") # if user's number is a match they will receive a message stating they entered the Equal number.
 #print("Congrats you entered the correct and equal number and it took you" attempts "attempts!")
 print("\nCongrats you entered the correct and equal number in " + str(attempts) + " attempts!")
+
