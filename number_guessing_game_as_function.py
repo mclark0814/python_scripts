@@ -13,7 +13,7 @@ while (user_number != hidden_number): # while loop tha checks for the user's num
      else:
          print("Higher") # if user's number is to low they will be prompted for a higher number
      attempts += 1
-     user_number = int(input("Enter your number: ")) 
+     user_number = int(input("Enter a whole number: ")) 
 print("Equal") # if user's number is a match they will receive a message stating they entered the Equal number.
 #print("Congrats you entered the correct and equal number and it took you" attempts "attempts!")
 print("\nCongrats you entered the correct and equal number in " + str(attempts) + " attempts!")
