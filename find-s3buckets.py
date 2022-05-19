@@ -13,3 +13,4 @@ print('\nPrint a list of the existing buckets:\n')
 
 for bucket in bucket_list['Buckets']: # Output the bucket names
     print(f' {bucket["Name"]}')
+    
