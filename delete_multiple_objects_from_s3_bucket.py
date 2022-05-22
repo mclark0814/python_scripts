@@ -11,6 +11,6 @@ len(objects) # provides the number of objects in the bucket before deleting them
 
 #Iteration
 for object in objects: #For loop to delete the objects in the bucket
-    s3_client.delete_object(Bucket='mybucketmdc05212021',
+    response=s3_client.delete_object(Bucket='mybucketmdc05212021',
       Key=object["Key"])
-    
+    print(response)
