@@ -6,6 +6,6 @@ ec2_client=boto3.client("ec2")
 ec2_client.create_volume(AvailabilityZone='us-east-1e',
       Encrypted=True,
       Size=12,
-      SnapshotId='snap-09a3aa81d08d5d129',
+      SnapshotId='snap-0f4a791ad466d1634',
       VolumeType='gp2')
 
