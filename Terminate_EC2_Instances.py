@@ -4,7 +4,7 @@ x=ec2_client.describe_instances()
 data=x["Reservations"]
 
 li=[]
-for instances in data: #(List comprehensive collectng all instances on the account)
+for instances in data: #(List comprehensive collecting of all instances on the account)
     instance=instances["Instances"]
     for ids in instance:
         instance_id=ids["InstanceId"]
